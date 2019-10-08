@@ -1,10 +1,10 @@
-$( "document" ).ready(function() {
+$(document).ready(function() {
 
-});
+    $("button").click(function() {
+        var input = $(".input").val();
+        console.log(input);
+    $(".output").text(input);
 
-$("button").click(function() {
-    var input = $(".input").val();
-}
 
-
+    });
 });
